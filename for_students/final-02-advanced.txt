@@ -1,4 +1,6 @@
-Advanced Thing: Lake has a flowing water texture using animated shader effect.
 AdvancedThing: Animated Shader Effect(#5)
 Example: Lake
 The Lake has an effect of flowing water. The water looks realistic, appropriate as a lake texture.
+AdvancedThing: Dynamic Environment Map(#17)
+Example: mirror
+The Ball reflects everything happening in the world in a live view. The Ball is being bounced by Child3.

@@ -35,3 +35,4 @@ Other Objects that you would like to note:
 - Birds - loaded from model file
 - Environment Map Object - a skybox
 - GrCarousal - An object made in previous workbook
+- mirror - Dynamic Environment Map showcases a mirror Ball which is being bounced by Child3.

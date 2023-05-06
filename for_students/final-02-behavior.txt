@@ -14,3 +14,4 @@ Other Behaviors that you made: (backup in case something above doesn't count)
 - Snowman is lively
 - Child2 is making snowman
 - Child3 is jumping around on the ground
+- mirror is being bounced by Child3. It also reflects everything happening in the world live.

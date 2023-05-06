@@ -38,6 +38,7 @@ import { Child } from "./child.js";
 import { Child2 } from "./child2.js";
 import { GrCarousel } from "./carousel.js";
 import { Child3 } from "./child3.js";
+import { mirror } from "./mirrorBall.js"
 
 import {main} from "../examples/main.js";
 
@@ -97,6 +98,7 @@ world.add(new Child({x:12,z:12,a:Math.PI/2}));
 world.add(new Child2({x:14,a:Math.PI}));
 world.add(new GrCarousel({z:15,size:0.6}));
 world.add(new Child3({x:-10,z:10,a:Math.PI}));
+world.add(new mirror(world,{x:-9,z:10,a:Math.PI}));
 
 
 
@@ -132,6 +134,7 @@ highlight("Child");
 highlight("Child2");
 highlight("Carousel-0");
 highlight("Child3");
+highlight("mirror");
 
 ///////////////////////////////////////////////////////////////
 // build and run the UI
