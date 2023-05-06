@@ -19,7 +19,7 @@ export class Child3 extends GrObject {
         head.position.y = 3;
         person.add(head);
 
-        let cloth_mat = new T.MeshBasicMaterial({color:"blue"});
+        let cloth_mat = new T.MeshBasicMaterial({color:"cyan"});
 
         let stomach = new T.Mesh(new T.BoxGeometry(0.7,1.3), cloth_mat);
         stomach.position.y = 2;
@@ -59,18 +59,18 @@ export class Child3 extends GrObject {
         this.la = lpant;
         this.rh = rhand;
         this.lh = lhand;
-        this.u = 0;
+        this.time = 0;
         this.man = person;
     }
 
-    // stepWorld(step, timeOfDay) {
-    //     this.time += step / 1000; // time in seconds
-    //     // set the y position based on the time
-    //     let t = this.time % 1; // where are we in the cycle?
+    stepWorld(delta, timeOfDay) {
+        this.time += delta / 1000; // time in seconds
+        // set the y position based on the time
+        let t = this.time % 1; // where are we in the cycle?
     
-    //     if (t < 0.1 || t > 0.9) this.man.position.y = 0.5;
-    //     else {
-    //       this.man.position.y = 0.5 + 10 * (0.16 - (0.5 - t) * (0.5 - t));
-    //     }
-    //   }
+        if (t < 0.1 || t > 0.9) this.man.position.y = -0.3;
+        else {
+          this.man.position.y = -0.3 + 10 * (0.16 - (0.5 - t) * (0.5 - t));
+        }
+      }
 }

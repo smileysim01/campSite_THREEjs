@@ -29,6 +29,7 @@ ShaderObj: Lake
 Other Objects that you would like to note:
 - Child - created from scratch for this Wb. This child walks around on the ground.
 - Child2 - created from scratch for this Wb. This child is creating the snowman.
+- Child3 - created from scratch for this Wb. This child is jumping.
 - Fisherman - loaded from a model file
 - Light - Lamp posts which spots light, Made in Wb06
 - Birds - loaded from model file

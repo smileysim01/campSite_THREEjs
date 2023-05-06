@@ -4,7 +4,7 @@ Three different behaviors that you made:
 3. Child walks, along with hand and leg movements
 
 One behavior that is not simple:
-Not simple: ???
+Not simple: Carousal shows heirarchical motion. The horse seats rise up and down in sync with rotation.
 
 Animated Articulated Figure:
 Articulated: Carousal shows heirarchical motion. The horse seats rise up and down in sync with rotation.
@@ -13,3 +13,4 @@ Other Behaviors that you made: (backup in case something above doesn't count)
 - Birds fly in the sky
 - Snowman is lively
 - Child2 is making snowman
+- Child3 is jumping around on the ground
