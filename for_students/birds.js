@@ -23,8 +23,8 @@ export class Birds extends Loaders.FbxGrObject {
       let dir = this.track.tangent(this.u);
       // since we can't easily construct the matrix, figure out the rotation
       // easy since this is 2D!
-      let zAngle = Math.atan2(dir[2], dir[0]);
+      let zAngle = -Math.atan2(dir[2], dir[0]);
       // turn the object so the Z axis is facing in that direction
-      this.objects[0].rotation.y = -zAngle - Math.PI / 2;
+      this.objects[0].rotation.y = -(-zAngle - Math.PI / 2);
     }
 }
