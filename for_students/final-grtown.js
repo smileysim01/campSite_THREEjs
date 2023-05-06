@@ -37,6 +37,7 @@ import { Tent } from "./tent.js";
 import { Child } from "./child.js";
 import { Child2 } from "./child2.js";
 import { GrCarousel } from "./carousel.js";
+import { Child3 } from "./child3.js";
 
 import {main} from "../examples/main.js";
 
@@ -95,6 +96,7 @@ world.add(new Tent({x:15,z:15,a:-Math.PI/4}));
 world.add(new Child({x:12,z:12,a:Math.PI/2}));
 world.add(new Child2({x:14,a:Math.PI}));
 world.add(new GrCarousel({z:15,size:0.6}));
+world.add(new Child3({x:-10,z:10}));
 
 
 
@@ -111,11 +113,25 @@ function highlight(obName) {
         throw `no object named ${obName} for highlighting!`;
     }
 }
+
 // of course, the student should highlight their own objects, not these
-// highlight("SimpleHouse-5");
-// highlight("Helicopter-0");
-// highlight("Track Car");
-// highlight("MorphTest");
+highlight("Shed");
+highlight("Mountain");
+highlight("Lake");
+highlight("Boat");
+highlight("Fisherman");
+highlight("Tree");
+highlight("Hut");
+highlight("Drone");
+highlight("Bird");
+highlight("Snowland");
+highlight("Snowman");
+highlight("Light");
+highlight("Tent");
+highlight("Child");
+highlight("Child2");
+highlight("Carousel-0");
+highlight("Child3");
 
 ///////////////////////////////////////////////////////////////
 // build and run the UI
