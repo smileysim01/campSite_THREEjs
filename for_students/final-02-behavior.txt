@@ -1,14 +1,15 @@
 Three different behaviors that you made:
-1. ???
-2. ???
-3. ???
+1. Boat moves around in the lake near the circumference
+2. Drone moves around back and forth
+3. Child walks, along with hand and leg movements
 
 One behavior that is not simple:
 Not simple: ???
 
 Animated Articulated Figure:
-Articulated: ???
+Articulated: Carousal shows heirarchical motion. The horse seats rise up and down in sync with rotation.
 
 Other Behaviors that you made: (backup in case something above doesn't count)
-- ???
-- ???
+- Birds fly in the sky
+- Snowman is lively
+- Child2 is making snowman

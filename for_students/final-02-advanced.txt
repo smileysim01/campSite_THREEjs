@@ -1,1 +1,4 @@
-Advanced Thing: ???
+Advanced Thing: Lake has a flowing water texture using animated shader effect.
+AdvancedThing: Animated Shader Effect(#5)
+Example: Lake
+The Lake has an effect of flowing water. The water looks realistic, appropriate as a lake texture.

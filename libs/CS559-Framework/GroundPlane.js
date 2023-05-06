@@ -39,8 +39,9 @@ export class SimpleGroundPlane extends GrObject {
    */
   constructor(size = 5, thickness = 0.2, color = "white") {
     // we need to create the parts before we can call "super"
+    let grass_tl = new T.TextureLoader().load("../textures/grass.jpeg");
     const geometry = new T.BoxGeometry(size * 2, thickness, size * 2);
-    const material = new T.MeshStandardMaterial({ color: color, roughness: 0.9 });
+    const material = new T.MeshStandardMaterial({ color: "white", roughness: 0.9, map: grass_tl, bumpMap:grass_tl});
     const mesh = new T.Mesh(geometry, material);
     numberOfGrounds += 1;
 

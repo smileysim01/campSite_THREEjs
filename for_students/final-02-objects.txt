@@ -1,29 +1,36 @@
 (Required) Two kinds of objects created for this assignment:
-1. ???
-2. ???
+1. Boat - a shader texture boat made from scratch using basic geometry and Mesh geometry
+2. Tent - a textured camping tent made from scratch using Mesh Geometry
 
 (Required) Five other kinds of objects that you created (possibly in previous assignments):
-3. ???
-4. ???
-5. ???
-6. ???
-7. ???
+3. Snowman - Made in Wb06
+4. Shed - Made in Wb08 using Meshes
+5. Hut Made in Wb08 using Meshes
+6. Drone - Made in Wb07
+7. Tree - Made in Wb07 using Basic Geometry
 
 (Optional) Backup Objects (more objects that you created, in case the ones above don't count):
-- ???
-- ???
-- ???
+- Light - A Lamp post which spots light, Made in Wb06
+- Lake - An animated shader object
+- Mountain - loaded from a model file
+- SnowLand - loaded from a model file
 
 At least on of each type of object:
-Building/structure: ???
-Vehicle: ???
-Natural Element: ???
+Building/structure: Shed
+Vehicle: Boat
+Natural Element: Lake
 
 Object loaded from a model file:
-Model: ???
+Model: Mountain
 
 An object with a shader that you wrote:
-ShaderObj: ???
+ShaderObj: Lake
 
 Other Objects that you would like to note:
-???
+- Child - created from scratch for this Wb. This child walks around on the ground.
+- Child2 - created from scratch for this Wb. This child is creating the snowman.
+- Fisherman - loaded from a model file
+- Light - Lamp posts which spots light, Made in Wb06
+- Birds - loaded from model file
+- Environment Map Object - a skybox
+- GrCarousal - An object made in previous workbook

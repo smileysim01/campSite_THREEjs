@@ -1,3 +1,17 @@
 List all attributions here, this include "self-attributions":
 
-???
+"Birds" (https://skfb.ly/6ZEHR) by Zacxophone is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+"Mountain" (https://sketchfab.com)
+"Snowland" (https://www.cgtrader.com/)
+"Fisherman" (https://www.cgtrader.com/)
+"Skybox Texture" (https://www.dreamstime.com/spherical-degrees-seamless-panorama-view-equirectangula-equirectangular-projection-natural-landscape-germany-vr-content-image119752572)
+
+"Self-attributions"
+"Snowman" - Wb06 - 06-08-01.js
+"Light" - Wb06 - 06-08-01.js
+"Drone" - Wb07 - 07-06-01.js
+"Trees" - Wb08 - 08-06-buildings.js
+"Hut" - Wb08 - 08-06-buildings.js
+"Shed" - Wb08 - 08-06-buildings.js
+"Carousal" - Wb07 - 07-08-parkobjects.js
+"Skybox" - Wb09 - 09-04-01
